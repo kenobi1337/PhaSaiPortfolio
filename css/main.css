@@ -56,9 +56,10 @@
     .menu-branding.show {
       transform: translate3d(0, 0, 0); }
     .menu-branding .portrait {
+      position: relative;
       width: 250px;
       height: 200px;
-      background: url("../img/portrait_1.jpg");
+      background: url("https://st.depositphotos.com/1779253/5140/v/950/depositphotos_51404241-stock-illustration-female-profile-avatar-icon-white.jpg");
       border-radius: 50%;
       border: solid 3px #087a54; }
   .menu .nav-item {
@@ -104,7 +105,7 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5; }
   body#bg-img {
-    background: url("../img/background_1.jpg");
+    background: url("https://static5.depositphotos.com/1004061/520/i/950/depositphotos_5200995-stock-photo-playing-golf-club-and-ball.jpg");
     background-attachment: fixed;
     background-size: cover; }
   body:after {
@@ -163,7 +164,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bio'
+ 'job1 job2 job3';
   grid-template-columns: 1fr 1fr 1fr; }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -281,7 +283,11 @@ main {
       width: 200px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'bioimage'
+ 'bio'
+ 'job1'
+ 'job2'
+ 'job3';
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
